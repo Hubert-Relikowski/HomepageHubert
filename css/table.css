@@ -1,0 +1,23 @@
+.table {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-collapse: collapse;
+}
+
+.table__tableCell {
+  border: 2px solid #372554;
+  padding: 10px;
+  text-align: left;
+}
+
+.table__header {
+  text-align: center;
+  background-color: #372554;
+  color: white;
+}
+
+.table__name {
+  font-family: "Outfit";
+  font-size: 25px;
+  color: #372554;
+  margin-bottom: 20px;
+}

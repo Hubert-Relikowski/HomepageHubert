@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Outfit:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/HomepageHubert/css/style.css" />
+    <link rel="stylesheet" href="/HomepageHubert/css/container.css" />
+    <link rel="stylesheet" href="/HomepageHubert/css/aboutMe.css" />
+    <link rel="stylesheet" href="/HomepageHubert/css/table.css" />
+    <link rel="stylesheet" href="/HomepageHubert/css/navigation.css" />
+    <script defer src="/HomepageHubert/js/script.js"></script>
+    <title>O mnie</title>
+    <link rel="icon" href="/HomepageHubert/images/Logo1.png" />
+    <meta property="og:image" content="/HomepageHubert/images/homepage.png" />
+  </head>
+
+  <body class="body">
+    <nav class="navigation">
+      <ul class="nav__listmenu">
+        <li class="nav__elementMenu">
+          <a href="#o-mnie" class="nav__link">O mnie</a>
+        </li>
+        <li class="nav__elementMenu">
+          <a href="#skill" class="nav__link">Moje umiejętności</a>
+        </li>
+        <li class="nav__elementMenu">
+          <a href="#plan" class="nav__link">Moje plany</a>
+        </li>
+        <li class="nav__elementMenu">
+          <a class="nav__link" href="#book">Moje ulubione ksiązki</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="div__aboutMe">
+        <div class="div__textMe">
+          <h1 class="paragraph__myName">
+            <span id="o-mnie" class="div__spanHi js-spanHi">Cześć.</span
+            ><br />Nazywam się Hubert.
+          </h1>
+          <p class="paragraph__myDescription">
+            Jestem studentem informatyki specjalizującym się w programowaniu
+            aplikacji biznesowych. Moja pasja do front-endowego programowania
+            jest nieodłącznie związana z zainteresowaniem UX/UI, które uważam za
+            kluczowe elementy w projektowaniu doskonałych interfejsów
+            użytkownika. Jestem pełen kreatywności i uwielbiam wprowadzać
+            innowacyjne rozwiązania do swoich projektów. Zadaniem, które mnie
+            napędza, jest tworzenie niesamowitych stron internetowych, które
+            przyciągają uwagę i zapewniają niezrównane wrażenia użytkownikom.
+          </p>
+        </div>
+        <img
+          class="div__myImg"
+          src="/HomepageHubert/images/61916305_2339914539434943_2101671572610744320_n.jpg"
+          alt="My photo"
+        />
+      </div>
+
+      <fieldset id="skill" class="fieldset__whatICan">
+        <legend class="fieldset__legend">Moje obecne umiejętności</legend>
+        <div class="fieldset__divImgSkills">
+          <img src="/HomepageHubert/images/icons8-html-5-48.png" alt="HTML" />
+          <img src="/HomepageHubert/images/icons8-css-48.png" alt="CSS" />
+          <img src="/HomepageHubert/images/icons8-js-48.png" alt="JS" />
+        </div>
+      </fieldset>
+
+      <div id="plan" class="div__myPlan">
+        <div class="div__myPlanUX">
+          <h2 class="div__paragraphHeaderMyPlanUX js-paragraphHeaderMyPlanUX">
+            Moje plany.
+          </h2>
+          <p class="div__paragraphMyPlanUX">
+            Po zdobyciu doświadczenia jako frontend developer, pragnę poszerzyć
+            swoje umiejętności w obszarze UX/UI. Jestem zainteresowany
+            doskonaleniem mojej wiedzy związanej z projektowaniem interakcji i
+            interfejsów użytkownika, aby tworzyć optymalne doświadczenia dla
+            użytkowników. Moim celem jest stworzenie przyjaznych, intuicyjnych i
+            estetycznych stron internetowych, które skupiają się na potrzebach i
+            oczekiwaniach użytkowników.
+          </p>
+        </div>
+        <img
+          src="/HomepageHubert/images/undraw_futuristic_interface_re_0cm6.svg"
+          alt="image"
+          class="div__imageMyPlanUX"
+        />
+      </div>
+
+      <div class="div__forMe">
+        <img
+          src="/HomepageHubert/images/undraw_heatmap_uyye.svg"
+          alt=""
+          class="div__imageForMe"
+        />
+        <p class="div__paragraphforMeText">
+          Dla mnie projektowanie stron internetowych to nie tylko praca, ale
+          prawdziwa pasja. Jestem zainspirowany możliwościami, jakie oferuje
+          świat online, i nie mogę się doczekać, aby wprowadzać moje pomysły i
+          wizje do rzeczywistości. Pragnę tworzyć strony internetowe, które nie
+          tylko spełniają oczekiwania klientów, ale również ich zachwycają i
+          angażują.
+        </p>
+      </div>
+
+      <table id="book" class="table">
+        <caption class="table__name">
+          Moje ulubione ksiązki
+        </caption>
+        <tr>
+          <th class="table__tableCell table__header" scope="col">Tytuł</th>
+          <th class="table__tableCell table__header" scope="col">Autor</th>
+        </tr>
+        <tr>
+          <th class="table__tableCell" scope="row">HTML i CSS</th>
+          <td class="table__tableCell">Duckett Jon</td>
+        </tr>
+        <tr>
+          <th class="table__tableCell" scope="row">Responsive Web Design</th>
+          <td class="table__tableCell">Frain Ben</td>
+        </tr>
+        <tr>
+          <th class="table__tableCell" scope="row">JavaScript i jQuery</th>
+          <td class="table__tableCell">Duckett Jon</td>
+        </tr>
+        <tr>
+          <th class="table__tableCell" scope="row">Zrozumieć JavaScript</th>
+          <td class="table__tableCell">Haverbeke Marijn</td>
+        </tr>
+      </table>
+
+      <button class="button__changeBackgroundColor js-changeBackgroundColor">
+        Zmień kolor
+      </button>
+    </div>
+  </body>
+</html>

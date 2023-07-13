@@ -1,0 +1,110 @@
+.div__aboutMe {
+  display: flex;
+}
+
+.paragraph__myName {
+  font-family: "Outfit";
+  font-size: 70px;
+}
+
+.div__spanHi {
+  color: #372554;
+  text-decoration: underline;
+}
+
+.div__myImg {
+  border-radius: 50%;
+  width: 500px;
+}
+
+.paragraph__myDescription {
+  font-family: "Montserrat";
+  font-size: 20px;
+  padding-right: 100px;
+}
+
+.fieldset__whatICan {
+  border: 5px solid #372554;
+  margin: 50px 0;
+  border-radius: 22px;
+}
+
+.fieldset__legend {
+  font-family: "Outfit";
+  font-size: 50px;
+  color: #372554;
+  text-align: center;
+}
+
+.fieldset__divImgSkills {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+.div__paragraphHeaderMyPlanUX {
+  font-family: "Outfit";
+  font-size: 50px;
+  color: #372554;
+}
+
+.div__myPlan,
+.div__forMe {
+  display: flex;
+  margin: 100px 0;
+}
+
+.div__imageMyPlanUX,
+.div__imageForMe {
+  max-width: 500px;
+}
+
+.div__paragraphMyPlanUX {
+  font-family: "Montserrat";
+  font-size: 20px;
+  padding-right: 100px;
+}
+
+.div__paragraphforMeText {
+  font-family: "Montserrat";
+  font-size: 20px;
+  padding-left: 100px;
+}
+
+.button__changeBackgroundColor {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #372554;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-top: 50px;
+}
+
+.button__changeBackgroundColor:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  transform: perspective(1000px) rotateX(90deg);
+  transition: transform 0.3s;
+}
+
+.button__changeBackgroundColor:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button__changeBackgroundColor:hover:before {
+  transform: perspective(1000px) rotateX(0deg);
+}
